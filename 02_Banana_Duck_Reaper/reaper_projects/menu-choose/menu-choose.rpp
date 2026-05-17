@@ -1,4 +1,4 @@
-<REAPER_PROJECT 0.1 "7.73/win64" 1779041352 0
+<REAPER_PROJECT 0.1 "7.73/win64" 1779049804 0
   <NOTES 0 2
   >
   RIPPLE 0 0
@@ -19,8 +19,8 @@
   VIDEO_CONFIG 0 0 65792
   PANMODE 3
   PANLAWFLAGS 3
-  CURSOR 1.66391732921842
-  ZOOM 46112.266909342376 75597 0
+  CURSOR 0.35296237921574
+  ZOOM 4212.7202330874379 0 0
   VZOOMEX 6 0
   USE_REC_CFG 0
   RECMODE 1
@@ -33,7 +33,7 @@
   >
   <APPLYFX_CFG
   >
-  RENDER_FILE "D:\Documentos\SoundDesign_Assignment1\02_Banana_Duck_Reaper\final_wav\menu-select.wav"
+  RENDER_FILE "D:\Documentos\SoundDesign_Assignment1\02_Banana_Duck_Reaper\final_wav\menu-choose.wav"
   RENDER_FMT 0 1 44100
   RENDER_1X 0
   RENDER_RANGE 2 0 0 0 1000
@@ -67,8 +67,8 @@
   GLOBAL_AUTO -1
   TEMPO 120 4 4 0
   PLAYRATE 1 0 0.25 4
-  SELECTION 1.68466045004604 1.67661723506036
-  SELECTION2 1.68466045004604 1.67661723506036
+  SELECTION 1.5 1.5
+  SELECTION2 1.5 1.5
   MASTERAUTOMODE 0
   MASTERTRACKHEIGHT 0 0
   MASTERPEAKCOL 16576
@@ -91,7 +91,7 @@
   >
   <TEMPOENVEX
     EGUID {626C4BCC-1D29-4D39-9B25-3FF38046583D}
-    ACT 1 -1
+    ACT 0 -1
     VIS 1 0 1
     LANEHEIGHT 0 0
     ARM 0
@@ -108,7 +108,7 @@
     BEAT -1
     AUTOMODE 0
     PANLAWFLAGS 3
-    VOLPAN 0.25118864315096 0 -1 -1 1
+    VOLPAN 0.06309573444802 0 -1 -1 1
     MUTESOLO 0 0 0
     IPHASE 0
     PLAYOFFS 0 1
@@ -116,6 +116,7 @@
     BUSCOMP 0 0 0 0 0
     SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
     FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
     SEL 1
     REC 0 0 1 0 0 0 0 0
     VU 64
@@ -128,28 +129,80 @@
     MIDIOUT -1
     MAINSEND 1 0
     <ITEM
-      POSITION 1.64447723752943
+      POSITION 0.02750652709728
       SNAPOFFS 0
-      LENGTH 0.0577897268086
+      LENGTH 0.32545585211845
       LOOP 1
       ALLTAKES 0
-      FADEIN 1 0.00341513950125 0 1 0 0 0
-      FADEOUT 1 0.01327613558759 0 1 0 0 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
       MUTE 0 0
-      SEL 0
-      IGUID {97C5DA62-CB60-4E08-A05D-45FA692AC5A6}
-      IID 1
-      NAME "menu select keyboard.wav"
+      SEL 1
+      IGUID {7E75212B-27BD-471D-9245-37A9192D7A1B}
+      IID 7
+      NAME "  "
       VOLPAN 1 0 1 -1
-      SOFFS 1.64604959534618
-      PLAYRATE 1 1 0 -1 0 0.0025
+      SOFFS 2.75382969
+      PLAYRATE 1 1 25 -1 0 0.0025
       CHANMODE 0
-      GUID {C279C9BC-9EAE-46AE-8ED5-F73CD1A2C5E7}
+      GUID {60636DE3-91ED-4AF7-A943-CB1D5AD12996}
       <SOURCE WAVE
-        FILE "Media\menu select keyboard.wav"
+        FILE "Media\menu-choose-pan.wav"
       >
       <EXT
-        ORIGINAL_FILENAME "D:\Documentos\SoundDesign_Assignment1\02_Banana_Duck_Reaper\source_recordings\menu-select\menu select keyboard.wav"
+        ORIGINAL_FILENAME D:\Documentos\SoundDesign_Assignment1\02_Banana_Duck_Reaper\source_recordings\menu-choose\menu-choose-pan.wav
+      >
+    >
+  >
+  <TRACK {BB996484-65F3-4688-B6CF-FE8C909FC344}
+    NAME menu-select
+    PEAKCOL 16576
+    BEAT -1
+    AUTOMODE 0
+    PANLAWFLAGS 3
+    VOLPAN 1 0 -1 -1 1
+    MUTESOLO 0 0 0
+    IPHASE 0
+    PLAYOFFS 0 1
+    ISBUS 0 0
+    BUSCOMP 0 0 0 0 0
+    SHOWINMIX 1 0.6667 0.5 1 0.5 0 0 0 0
+    FIXEDLANES 9 0 0 0 0
+    LANEREC -1 -1 -1 0
+    SEL 0
+    REC 0 0 1 0 0 0 0 0
+    VU 64
+    TRACKHEIGHT 0 0 0 0 0 0 0
+    INQ 0 0 0 0.5 100 0 0 100
+    NCHAN 2
+    FX 1
+    TRACKID {BB996484-65F3-4688-B6CF-FE8C909FC344}
+    PERF 0
+    MIDIOUT -1
+    MAINSEND 1 0
+    <ITEM
+      POSITION 0
+      SNAPOFFS 0
+      LENGTH 0.06163265306122
+      LOOP 1
+      ALLTAKES 0
+      FADEIN 1 0 0 1 0 0 0
+      FADEOUT 1 0 0 1 0 0 0
+      MUTE 0 0
+      SEL 0
+      IGUID {CCA839AA-1616-461A-A364-B179F4CF1CC7}
+      IID 9
+      NAME menu-select.wav
+      VOLPAN 1 0 1 -1
+      SOFFS 0
+      PLAYRATE 1 1 0 -1 0 0.0025
+      CHANMODE 0
+      GUID {38A0B7ED-0A65-4F1B-B83D-7C84920D894B}
+      <SOURCE WAVE
+        FILE "Media\menu-select.wav"
+      >
+      <EXT
+        ORIGINAL_FILENAME D:\Documentos\SoundDesign_Assignment1\02_Banana_Duck_Reaper\final_wav\menu-select.wav
       >
     >
   >
